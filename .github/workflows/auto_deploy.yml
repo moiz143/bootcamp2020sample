@@ -31,4 +31,4 @@ jobs:
     - name: installing surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge ./ samplebootbamp.surge.sh --token $ {{ secrets.surge_token }}
+      run: surge ./ samplebootbamp.surge.sh --token "34e853ef2eb84ab54455adb866611dc9"
